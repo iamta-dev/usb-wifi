@@ -37,4 +37,4 @@ In order to uninstall the module:
 
 ## Reference
 - https://github.com/EntropicEffect/rtl8822bu
-- Driver - tp-link Archer T4U 
+- Driver - Tp-link Archer T4U 
