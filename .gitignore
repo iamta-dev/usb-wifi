@@ -1,0 +1,10 @@
+sftp-config.json
+*.o
+*.ko
+.*.o.cmd
+.88x2bu.ko.cmd
+.88x2bu.mod.cmd
+88x2bu.mod
+88x2bu.mod.c
+Module.symvers
+modules.order
