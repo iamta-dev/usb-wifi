@@ -15,26 +15,26 @@ A few known wireless cards that use this driver include
 
 compiling in source dir:
 ```
-make
+ $ make
 
-sudo make install
+ $ sudo make install
 ```
 ## DKMS
 Then install the module using dkms do in source dir:
 ```
-sudo apt-get install build-essential dkms
+ $ sudo apt-get install build-essential dkms
 
-sudo dkms add .
-sudo dkms install -m 88x2bu -v 1.1
+ $ sudo dkms add .
+ $ sudo dkms install -m 88x2bu -v 1.1
 ```
 
 ## Uninstall
 In order to uninstall the module:
 ```
-sudo dkms remove -m 88x2bu -v 1.1 --all
-sudo rm -rf /usr/src/88x2bu-1.1
+ $ sudo dkms remove -m 88x2bu -v 1.1 --all
+ $ sudo rm -rf /usr/src/88x2bu-1.1
 ```
 
 ## Reference
-https://github.com/EntropicEffect/rtl8822bu
-Driver - tp-link Archer T4U 
+- https://github.com/EntropicEffect/rtl8822bu
+- Driver - tp-link Archer T4U 
